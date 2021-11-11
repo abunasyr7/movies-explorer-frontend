@@ -1,0 +1,48 @@
+.techs {
+    background-color: #272727;
+    padding-top: 85px;
+}
+
+.techs__main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.techs__main h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: -4%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.techs__main h2 {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing:-4%;
+}
+
+.techs__main p {
+    max-width: 460px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -4%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.techs__buttons {
+    max-width: 690px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
