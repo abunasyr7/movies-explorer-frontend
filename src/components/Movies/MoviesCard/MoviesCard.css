@@ -39,3 +39,9 @@
     color: #686868;
     padding: 3px 4px;
 }
+
+@media screen and (max-width: 1230px){
+    .movies-card {
+        max-width: 339px;
+    }
+}

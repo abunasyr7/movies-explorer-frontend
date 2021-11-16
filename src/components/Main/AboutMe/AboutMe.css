@@ -24,6 +24,7 @@
 }
 
 .about-me__name {
+    margin: 0;
     font-weight: 400;
     font-size: 50px;
     line-height: 58px;
@@ -31,6 +32,7 @@
 }
 
 .about-me__info h3 {
+    margin: 0;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
@@ -38,6 +40,7 @@
 }
 
 .about-me__info p {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -63,4 +66,17 @@
     margin-bottom: 100px;
 }
 
+@media screen and (max-width: 1230px){
+    .about-me {
+        max-width: 668px;
+    }
+
+    .about-me__info {
+        max-width: 364px;
+    }
+
+    .about-me__name {
+        margin-bottom: 15px;
+    }
+}
 

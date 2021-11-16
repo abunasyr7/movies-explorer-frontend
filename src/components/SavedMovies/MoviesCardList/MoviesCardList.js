@@ -1,5 +1,4 @@
 import React from 'react';
-import './MoviesCardList.css';
 import MoviesCard from '../MoviesCard/MoviesCard';
 import image1 from '../../../images/image1.png';
 import image2 from '../../../images/image2.png';

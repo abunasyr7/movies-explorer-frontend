@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import MenuNavigation from '../MenuNavigation/MenuNavigation';
 import './Navigation.css';
+import profile from '../../images/profile.png';
 
 function Navigation () {
 
@@ -15,14 +16,19 @@ function Navigation () {
         <header>
             <MenuNavigation isMenuOpen={isMenuOpen} handleToggleMenu={handleToggleMenu} />
             <>
-                <div className="header__group navigation__group-style">
-                    <div className="header__box-link">
-                        <Link to="/movies" className="header__nav-link">Фильмы</Link>
-                        <Link to="/saved-movies" className="header__nav-link">Сохранённые фильмы</Link>
+                <div className="navigation">
+                    <div className="navigation__box">
+                        <Link to="/movies" className="navigation__link">Фильмы</Link>
+                        <Link to="/saved-movies" className="navigation__link">Сохранённые фильмы</Link>
                     </div>
-                    <Link to="/profile" className="header__nav-link"></Link>
-                    <button className="header__menu" onClick={handleToggleMenu}></button>
+                    <div className="navigation__profile">
+                        <Link to="/profile" className="navigation__link">
+                            <img src={profile} />
+                        </Link>
+                    </div>
                 </div>
+                <button className="navigation__menu" onClick={handleToggleMenu}>
+                </button>
             </>
         </header>
     )

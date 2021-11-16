@@ -12,20 +12,29 @@ import Register from '../Register/Register';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
 function App() {
+
+  const [loggedIn] = React.useState(true)
+
   return (
     <div className="page">
-      <Header />
       <Switch>
         <Route exact path = "/">
+          <Header loggedIn={loggedIn}/>
           <Main />
+          <Footer />
         </Route>
         <Route path="/movies">
+          <Header loggedIn={loggedIn}/>
           <Movies />  
+          <Footer />
         </Route>
         <Route path="/saved-movies">
-          <SavedMovies /> 
+          <Header loggedIn={loggedIn}/>
+          <SavedMovies />
+          <Footer /> 
         </Route>
         <Route path="/profile">
+          <Header loggedIn={loggedIn}/>
           <Profile /> 
         </Route>
         <Route path="/signin">
@@ -38,7 +47,6 @@ function App() {
           <PageNotFound />
         </Route>
       </Switch>
-      <Footer />
     </div>
   );
 }

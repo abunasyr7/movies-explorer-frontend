@@ -4,12 +4,14 @@
 }
 
 .about-project__title {
+    margin: 0;
     font-weight: 400;
     font-size: 22px;
     line-height: 26.63px;
     letter-spacing: -4%;
     padding-bottom: 20px;
     border-bottom: 1px solid #DADADA;
+    margin-bottom: 95px;
 }
 
 .about-project__main {
@@ -23,13 +25,16 @@
 }
 
 .about-project__info h3 {
+    margin: 0;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.2px;
-    letter-spacing: -4%;
+    letter-spacing: -0.04em;
+    margin-bottom: 25px;
 }
 
 .about-project__info p {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -67,7 +72,6 @@
     margin: 9px 385px;
     text-align: center;
 }
-
 .about-project__add-block {
     display: flex;
     margin-bottom: 110px;
@@ -88,3 +92,41 @@
     margin-right: 370px;
 }
 
+
+@media screen and (max-width: 1230px){
+    .about-project {
+        max-width: 668px;
+    }
+
+    .about-project__info {
+        max-width: 320px;
+    }
+
+    .about-project__info h3 {
+        margin-bottom: 22px;
+    }
+
+    .about-project__line_type_green {
+        max-width: 140px;
+    }
+
+    .about-project__line_type_black {
+        max-width: 528px;
+    }
+
+    .about-project__line_type_green p {
+        max-width: 120px;
+    }
+
+    .about-project__line_type_black p {
+        max-width: 120px;
+        margin: 9px 206px;
+    }
+    .about-project__add-block p {
+        max-width: 120px;
+    }
+
+    .about-project__add-block p:nth-child(1) {
+        margin-right: 180px;
+    }
+}

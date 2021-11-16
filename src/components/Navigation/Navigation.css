@@ -1,0 +1,54 @@
+.navigation {
+    display: flex;
+}
+
+.navigation__box {
+    display: flex;
+    margin-right: 50px;
+    align-items: center
+}
+
+.navigation__link {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.navigation__box .navigation__link {
+    margin-right: 20px;
+}
+
+.navigation__box .navigation__link:last-child {
+    margin-right: 0;
+}
+
+.navigation__profile {
+    display: flex;
+    align-items: center
+}
+
+.navigation__menu {
+    display: none;
+}
+
+.navigation__button {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1230px){
+    .navigation {
+        display: none;
+    }
+
+    .navigation__menu {
+        display: flex;
+        background-image: url('../../images/group.svg');
+        width: 44px;
+        height: 44px;
+        background-color: transparent;
+        border: none;
+    }
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import './MoviesCard.css';
 import { useLocation } from 'react-router-dom';
 
 function MoviesCard({url, title, duration}) {

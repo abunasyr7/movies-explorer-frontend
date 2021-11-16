@@ -58,3 +58,17 @@
     font-size: 12px;
     line-height: 16px;
 }
+
+
+@media screen and (max-width: 1230px) {
+    .page-nav {
+        max-width: 728px;
+    }
+
+    .page-nav__text {
+        max-width: 680px;
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 325px;
+    }
+}

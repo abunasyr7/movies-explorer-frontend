@@ -38,3 +38,18 @@
     border: none;
     border-radius: 48px;
 }
+
+@media screen and (max-width: 1230px){
+    .search-form {
+        max-width: 708px;
+    }
+
+    .search-form__container {
+        max-width: 708px;
+    }
+
+    .search-form__input {
+        max-width: 278px;
+        margin-right: 5px;
+    }
+}
