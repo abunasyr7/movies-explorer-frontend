@@ -1,0 +1,17 @@
+.menu-navigation {
+    display: none;
+}
+
+.menu-navigation_type_opened {
+    display: inline;
+}
+
+.menu-navigation__container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    z-index: 1;
+    background-color: #202020;
+}

@@ -1,0 +1,11 @@
+.profile__email {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__email p {
+    margin: 0;
+}

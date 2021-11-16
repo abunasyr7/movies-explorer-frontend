@@ -1,0 +1,13 @@
+.profile__edit {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.profile__edit:hover {
+    text-shadow: 1px 1px 1px;
+}
