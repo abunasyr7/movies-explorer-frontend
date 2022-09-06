@@ -82,3 +82,45 @@
         margin-top: 230px;
     }
 }
+
+@media screen and (max-width: 728px){
+    .register {
+        max-width: 95%;
+    }
+
+    .register__header {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .register__main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .register__input input{
+        margin: 0 auto;
+        max-width: 95%;
+    }
+
+    .register__button {
+        max-width: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 100px auto 15px;
+    }
+
+    .register__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .register__link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

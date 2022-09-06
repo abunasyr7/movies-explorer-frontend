@@ -45,3 +45,17 @@
         max-width: 339px;
     }
 }
+
+@media screen and (max-width: 728px){
+    .movies-card {
+        max-width: 90%;
+    }
+
+    .movies-card__container {
+        max-width: 100%;
+    }
+
+    .movies-card__img {
+        max-width: 100%;
+    }
+}

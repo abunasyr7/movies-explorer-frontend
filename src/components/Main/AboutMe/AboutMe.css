@@ -1,14 +1,13 @@
 .about-me {
     max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 110px;
+    margin: 110px auto 0;
 }
 
 .about-me__title {
     font-weight: 400;
     font-size: 22px;
-    line-height: 26.63px;
-    letter-spacing: -4%;
+    line-height: 27px;
+    letter-spacing: -0.04em;
     padding-bottom: 25px;
     border-bottom: 1px solid #E5E5E5;
 }
@@ -32,19 +31,17 @@
 }
 
 .about-me__info h3 {
-    margin: 0;
+    margin: 0 0 25px;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    margin-bottom: 25px;
 }
 
 .about-me__info p {
-    margin: 0;
+    margin: 0 0 100px;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 100px;
 }
 
 .about-me__avatar {
@@ -59,11 +56,9 @@
 
 .about-me__link p {
     font-weight: 500;
-    margin: 0;
+    margin: 0 20px 100px 0;
     font-size: 14px;
     line-height: 17px;
-    margin-right: 20px;
-    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1230px){
@@ -77,6 +72,64 @@
 
     .about-me__name {
         margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 728px){
+    .about-me {
+        max-width: 95%;
+        margin-top: 70px;
+    }
+
+    .about-me__title {
+        margin: 0;
+        padding: 0 0 25px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .about-me__main {
+        flex-direction: column-reverse;
+        margin: 65px auto 0;
+    }
+
+    .about-me__photo {
+        max-width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    .about-me__avatar {
+        width: 280px;
+        height: 415px;
+        border-radius: 10px;
+    }
+
+    .about-me__info {
+        max-width: 95%;
+        margin: 0 auto 70px;
+    }
+
+    .about-me__info h3 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .about-me__name {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .about-me__info p {
+        margin-bottom: 40px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .about-me__link p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 0;
     }
 }
 

@@ -4,12 +4,21 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
-    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1230px) {
     .movies-card-list {
         max-width: 708px;
         grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (max-width: 728px){
+    .movies-card-list {
+        max-width: 95%;
+        margin: 40px auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

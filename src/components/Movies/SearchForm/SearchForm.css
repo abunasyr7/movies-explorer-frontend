@@ -53,3 +53,42 @@
         margin-right: 5px;
     }
 }
+
+@media screen and (max-width: 728px){
+    .search-form {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search-form__form {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search-form__container {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .search-form__icon {
+        display: none;
+    }
+
+    .search-form__input {
+        margin-left: 5px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .search-form__btn {
+        max-width: 100%;
+    }
+
+    .search-form__btn-section {
+        padding: 0;
+    }
+}

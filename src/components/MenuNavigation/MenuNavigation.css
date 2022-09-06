@@ -71,6 +71,12 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1230px){
-    
+@media screen and (max-width: 728px){
+    .menu-navigation__container {
+        max-width: 100%;
+    }
+
+    .menu-navigation__group {
+        max-width: 100%;
+    }
 }

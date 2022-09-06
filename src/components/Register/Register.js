@@ -6,10 +6,12 @@ import { Link } from 'react-router-dom';
 function Register() {
     return(
         <section className="register">
-            <a href="/">
-                <img src={logo} alt="Логотип" className="register__logo"/>
-            </a>
-            <h1 className="register__title">Добро пожаловать!</h1>
+            <div className="register__header">
+                <a href="/">
+                    <img src={logo} alt="Логотип" className="register__logo"/>
+                </a>
+                <h1 className="register__title">Добро пожаловать!</h1>
+            </div>
             <form className="register__form">
                 <div className="register__main">
                     <div className="register__input">

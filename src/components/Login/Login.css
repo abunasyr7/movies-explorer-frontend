@@ -78,3 +78,45 @@
         margin-top: 230px;
     }
 }
+
+@media screen and (max-width: 728px){
+    .login {
+        max-width: 95%;
+    }
+
+    .login__header {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .login__main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .login__input input{
+        margin: 0 auto;
+        max-width: 95%;
+    }
+
+    .login__button {
+        max-width: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 100px auto 15px;
+    }
+
+    .login__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .login__link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

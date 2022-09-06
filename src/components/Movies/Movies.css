@@ -1,0 +1,5 @@
+@media screen and (max-width: 728px){
+    .movies {
+        max-width: 100%;
+    }
+}
