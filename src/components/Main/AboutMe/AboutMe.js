@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css'
-import Avatar from '../../../images/IMG_3910.jpg';
+import Avatar from '../../../images/IMG_3910.JPG';
 
 function AboutMe() {
     return(
