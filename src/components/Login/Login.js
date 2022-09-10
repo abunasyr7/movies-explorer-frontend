@@ -16,15 +16,19 @@ function Login() {
                 <div className="login__main">
                     <div className="login__input">
                         <p>E-mail</p>
-                        <input type="email" name="email" required />
+                        <input type="email" name="email" required/>
                     </div>
                     <div className="login__input">
                         <p>Пароль</p>
-                        <input type="password" name="password" required />
+                        <input type="password" name="password" required/>
                     </div>
                 </div>
-                <button type="submit" className="login__button">Войти</button>
-                <p className="login__text">Ещё не зарегистрированы? <Link to="/signup" className="login__link">Регистрация</Link></p>
+                <div className="login__footer">
+                    <button type="submit" className="login__button">Войти</button>
+                    <p className="login__text">Ещё не зарегистрированы? <Link to="/signup"
+                                                                              className="login__link">Регистрация</Link>
+                    </p>
+                </div>
             </form>
         </section>
     )

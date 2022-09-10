@@ -67,7 +67,7 @@
 @media screen and (max-width: 728px){
     .filter__group {
         position: absolute;
-        top: 250px;
+        top: 215px;
         display: flex;
         align-items: center;
         justify-content: center;

@@ -23,7 +23,7 @@ function Navigation () {
                     </div>
                     <div className="navigation__profile">
                         <Link to="/profile" className="navigation__link">
-                            <img src={profile} />
+                            <img src={profile} alt="Profile photo"/>
                         </Link>
                     </div>
                 </div>

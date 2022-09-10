@@ -154,44 +154,55 @@
     }
 
     .about-project__diagram {
-        margin-left: 0;
-        max-width: 100%;
-        justify-content: space-between;
+        margin: 0 auto 15px;
+        max-width: 95%;
+        display: grid;
+        grid-template-columns: 20% 80%;
     }
 
     .about-project__line_type_green {
-        width: 40%;
-    }
-
-    .about-project__line_type_green p{
-        margin: 9px 0;
+        width: 100%;
         max-width: 100%;
     }
 
+    .about-project__line_type_green p {
+        margin: 9px 0;
+        max-width: 100%;
+        font-size: 12px;
+    }
+
     .about-project__line_type_black {
-        width: 60%;
+        width: 100%;
+        max-width: 100%;
     }
 
     .about-project__line_type_black p {
         margin: 9px 0;
         max-width: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
     }
 
     .about-project__add-block {
         max-width: 100%;
+        display: grid;
+        grid-template-columns: 20% 80%;
     }
 
     .about-project__add-block p {
         padding: 0;
+        text-align: center;
     }
 
     .about-project__add-block p:nth-child(1) {
         margin-right: 0;
-        width: 40%;
+        width: 100%;
+        max-width: 100%;
     }
 
     .about-project__add-block p:nth-child(2) {
-        width: 60%;
+        width: 100%;
         max-width: 100%;
         text-align: center;
     }

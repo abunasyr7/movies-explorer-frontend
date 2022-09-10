@@ -8,9 +8,10 @@ function Footer() {
             <div className="footer__main">
                 <p>&#169; 2021</p>
                 <div className="footer__links">
-                    <a href="https://practicum.yandex.ru/" target="_blank" rel="noopener">Яндекс.Практикум</a>
-                    <a href="https://github.com/abunasyr7?tab=repositories" target="_blank" rel="noopener">Github</a>
-                    <a>Facebook</a>
+                    <a href="https://practicum.yandex.ru/" target="_blank" rel="noreferrer">Яндекс.Практикум</a>
+                    <a href="https://github.com/abunasyr7?tab=repositories" target="_blank" rel="noreferrer">Github</a>
+                    <a href="https://www.facebook.com/profile.php?id=100011660975818" target="_blank"
+                       rel="noreferrer">Facebook</a>
                 </div>
             </div>
         </footer>

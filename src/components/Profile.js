@@ -16,8 +16,8 @@ function Profile({name, email}) {
                 </div>
             </div>
             <div className="profile__link">
-                <a href="#" className="profile__edit">Редактировать</a>
-                <a href="#" className="profile__exit">Выйти из аккаунта</a>
+                <a href="#" className="profile__edit" target="_blank">Редактировать</a>
+                <a href="#" className="profile__exit" target="_blank">Выйти из аккаунта</a>
             </div>
         </section>
     )

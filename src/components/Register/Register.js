@@ -20,15 +20,19 @@ function Register() {
                     </div>
                     <div className="register__input">
                         <p>E-mail</p>
-                        <input type="email" name="email" required />
+                        <input type="email" name="email" required/>
                     </div>
                     <div className="register__input">
                         <p>Пароль</p>
-                        <input type="password" name="password" required />
+                        <input type="password" name="password" required/>
                     </div>
                 </div>
-                <button className="register__button">Зарегестрироваться</button>
-                <p className="register__text">Уже зарегестрированы? <Link to='/signin' className="register__link">Войти</Link></p>
+                <div className="register__footer">
+                    <button className="register__button">Зарегестрироваться</button>
+                    <p className="register__text">Уже зарегестрированы? <Link to='/signin'
+                                                                              className="register__link">Войти</Link>
+                    </p>
+                </div>
             </form>
         </section>
     )

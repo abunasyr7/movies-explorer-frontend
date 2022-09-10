@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #222222;
+    border-radius: 9px;
 }
 
 .search-form__input {
@@ -63,8 +64,10 @@
 
     .search-form__form {
         max-width: 100%;
+        width: 95%;
         display: flex;
         align-items: center;
+        margin: 0 auto;
     }
 
     .search-form__container {
