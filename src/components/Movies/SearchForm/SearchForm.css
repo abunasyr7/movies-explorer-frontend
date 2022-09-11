@@ -25,6 +25,7 @@
     border: 0;
     margin-right: 40px;
     padding: 20px 0;
+    color: white;
 }
 
 .search-form__btn-section {
@@ -40,7 +41,11 @@
     border-radius: 48px;
 }
 
-@media screen and (max-width: 1230px){
+.search-form__btn:hover {
+    background-color: #002ead;
+}
+
+@media screen and (max-width: 1230px) {
     .search-form {
         max-width: 708px;
     }
@@ -82,7 +87,7 @@
     }
 
     .search-form__input {
-        margin-left: 5px;
+        margin-left: 20px;
         max-width: 100%;
         width: 100%;
     }
@@ -93,5 +98,7 @@
 
     .search-form__btn-section {
         padding: 0;
+        border-right: none;
+        margin-right: 20px;
     }
 }
