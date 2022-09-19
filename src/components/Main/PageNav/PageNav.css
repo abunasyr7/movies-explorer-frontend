@@ -1,0 +1,108 @@
+.page-nav {
+    background-color: #272727;
+    max-width: 1280px;
+    margin: 0 auto 110px auto;
+    border-radius: 9px;
+}
+
+.page-nav__text {
+    display: flex;
+    margin: 0 auto 150px;
+    padding-top: 115px;
+    max-width: 730px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.page-nav__buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.page-nav__about {
+    margin-right: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.page-nav__tech {
+    margin-right: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.page-nav__student {
+    margin-right: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+@media screen and (max-width: 1230px) {
+    .page-nav {
+        max-width: 728px;
+    }
+
+    .page-nav__text {
+        max-width: 680px;
+        font-size: 40px;
+        line-height: 52px;
+        padding-top: 350px;
+        margin-bottom: 315px;
+    }
+}
+
+@media screen and (max-width: 728px){
+    .page-nav {
+        max-width: 95%;
+    }
+
+    .page-nav__text {
+        font-size: 29px;
+        max-width: 100%;
+        line-height: 37px;
+        margin-bottom: 210px;
+    }
+
+    .page-nav__buttons {
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .page-nav__about {
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    .page-nav__tech {
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    .page-nav__student {
+        font-size: 10px;
+        margin-right: 0;
+    }
+}

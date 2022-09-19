@@ -1,8 +1,16 @@
-# Dependencies
-.psci_modules
-bower_components
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Generated files
-.psci
-output
+# Dependency directory
+node_modules
+build
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.DS_Store
+.idea
+.vscode

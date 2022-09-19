@@ -1,0 +1,26 @@
+.info-button {
+    background-color: #303030;
+    width: 90px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.info-button__text {
+    padding: 20px 15px;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 728px){
+    .info-button {
+        max-width: 90px;
+    }
+
+    .info-button__text {
+        font-size: 12px;
+    }
+}

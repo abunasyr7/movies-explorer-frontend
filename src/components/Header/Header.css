@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 65px;
+    max-width: 1200px;
+}
+
+.header__register {
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.header__login {
+    background-color: #3DDC84;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 1230px) {
+    .header {
+        width: 728px;
+    }
+}
+
+@media screen and (max-width: 728px){
+    .header {
+        max-width: 95%;
+    }
+    .header__register {
+        margin-right: 15px;
+    }
+}
