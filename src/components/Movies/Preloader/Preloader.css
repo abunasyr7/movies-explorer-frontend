@@ -6,7 +6,7 @@
 .preloader__button {
     display: flex;
     margin: 0 auto;
-    width: 320px;
+    max-width: 320px;
     background-color: #2f2f2f;
     border: none;
     border-radius: 9px;
@@ -31,7 +31,6 @@
     }
 
     .preloader__button {
-        max-width: 100%;
-        width: 100%;
+        max-width: 320px;
     }
 }
